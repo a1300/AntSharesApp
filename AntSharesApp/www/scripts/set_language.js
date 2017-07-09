@@ -1,38 +1,107 @@
 ﻿var currentLanguage = navigator.language || navigator.browserLanguage;
-if (currentLanguage.split('-')[0] == 'zh') {
-    document.getElementById('lang').href = 'css/zh.css';
-    $("#en_help").hide();
-    $("#zh_help").show();
-    $("#en_about").hide();
-    $("#zh_about").show();
-    $("#en_privacy").hide();
-    $("#zh_privacy").show();
+
+var countryCode = currentLanguage.split('-')[0];
+
+switch (countryCode)
+{
+    case 'zh':
+        {
+            document.getElementById('lang').href = 'css/zh.css';
+            $("#en_help").hide();
+            $("#de_help").hide();
+            $("#zh_help").show();
+
+            $("#en_about").hide();
+            $("#de_about").hide();
+            $("#zh_about").show();
+
+            $("#en_privacy").hide();
+            $("#de_privacy").hide();
+            $("#zh_privacy").show();
+
+            break;
+        }
+    case 'de':
+        {
+            document.getElementById('lang').href = 'css/de.css';
+            $("#en_help").hide();
+            $("#zh_help").hide();
+            $("#de_help").show();
+
+            $("#en_about").hide();
+            $("#zh_about").hide();
+            $("#de_about").show();
+
+            $("#en_privacy").hide();
+            $("#zh_privacy").hide();
+            $("#de_privacy").show();
+
+            break;
+        }
+    case 'en':
+    default:
+        {
+            document.getElementById('lang').href = 'css/en.css';
+            $("#en_help").show();
+            $("#zh_help").hide();
+            $("#de_help").hide();
+
+            $("#en_about").show();
+            $("#zh_about").hide();
+            $("#de_about").hide();
+
+            $("#en_privacy").show();
+            $("#zh_privacy").hide();
+            $("#de_privacy").hide();
+
+            break;
+        }
+
 }
-else {
-    document.getElementById('lang').href = 'css/en.css';
-    $("#en_help").show();
-    $("#zh_help").hide();
-    $("#en_about").show();
-    $("#zh_about").hide();
-    $("#en_privacy").show();
-    $("#zh_privacy").hide();
-}
+
+
+
+
 //初始化fileinput控件 http://www.cnblogs.com/wuhuacong/p/4774396.html
 function resetFileinput()
 {
-    if (currentLanguage.split('-')[0] == 'zh') {
-        document.getElementById('lang').href = 'css/zh.css';
-        $("#files").fileinput({
-            language: 'zh',
-            previewFileIcon: "<i class='glyphicon glyphicon-king'></i>",
-        });
+
+    var countryCode = currentLanguage.split('-')[0];
+
+    switch (countryCode)
+    {
+        case 'zh':
+            {
+                document.getElementById('lang').href = 'css/zh.css';
+                $("#files").fileinput({
+                    language: 'zh',
+                    previewFileIcon: "<i class='glyphicon glyphicon-king'></i>"
+                });
+
+                break;
+            }
+        case 'de':
+            {
+                document.getElementById('lang').href = 'css/de.css';
+                $("#files").fileinput({
+                    language: 'de',
+                    previewFileIcon: "<i class='glyphicon glyphicon-king'></i>"
+                });
+
+                break;
+            }
+        case 'en':
+        default:
+            {
+                document.getElementById('lang').href = 'css/en.css';
+                $("#files").fileinput({
+                    previewFileIcon: "<i class='glyphicon glyphicon-king'></i>"
+                });
+
+            }
     }
-    else {
-        document.getElementById('lang').href = 'css/en.css';
-        $("#files").fileinput({
-            previewFileIcon: "<i class='glyphicon glyphicon-king'></i>",
-        });
-    }
+   
+    
 }
 resetFileinput();
 

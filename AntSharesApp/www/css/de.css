@@ -1,0 +1,170 @@
+title::before { content:'Neo' }
+.lang-title::before { content:'Neo' }
+.lang-create-wallet::before { content:'Geldbörse anlegen'}
+.lang-open-wallet::after { content:'Geldbörse öffnen' }
+.lang-input-wallet-name::before { content:'Geben Sie der Geldbörse einen Namen' }
+.lang-import-password::before { content:'Vergeben Sie ein Passwort für die neue Geldbörse' }
+.lang-return-start::before { content:'Zum Start zurück' }
+.lang-start::after { content:'Start' }
+.lang-input-wallet-password::before { content:'Geben Sie das Passwort für Ihre Geldbörse ein' }
+.lang-input-wallet-confirm-password::before { content:'Bitte wiederholen Sie es noch einmal' }
+.lang-select-wallet-file::before { content:'Wählen Sie Ihre Geldbörse-Datei aus' }
+.lang-wallet-password-error::before { content:'Fehler beim Eingabe des Passworts' }
+.lang-change-wallet-password::before { content:'Geldbörse Passwort ändern' }
+.lang-wallet-name::before { content:'Name der Geldbörse' }
+.lang-validate-old-password::before { content:'Altes Passwort eingeben' }
+.lang-input-new-password::before { content:'Neues Passwort vergeben' }
+.lang-confirm-new-password::before { content:'Neues Passwort wiederholen' }
+.lang-account-list::before { content:'Benutzerkonto anzeigen' }
+.lang-create-account::before { content:'Benutzerkonto anlegen' }
+.lang-import-private-key::before { content:'Private Schlüssel importieren' }
+.lang-details::before { content:'Details' }
+.lang-export::before { content:'Exportieren' }
+.lang-certification::before { content:'Zertifikat' }
+.lang-account-details::before { content:'Details Benutzerkonto' }
+.lang-public-key::before { content:'Öffentlicher Schlüssel' }
+.lang-show-hide-private-key::before { content:'Privaten Schlüssel anzeigen/verstecken' }
+.lang-back-to-account-list::before { content:'Zurück zur Benutzerkontoübersicht' }
+.lang-import-private-key::before { content:'Privaten Schlüssel importieren' }
+.lang-input-private-key::before { content:'Privaten Schlüssel eingeben' }
+.lang-contract-list::before { content:'Liste aller Verträge' }
+.lang-create-muntisig::before { content:'Erstellen Sie ein Benutzerkonto mit mehreren Signaturen' }
+.lang-contract-details::before { content:'Vertrags Details' }
+.lang-contract-type::before { content:'Vertragstyp' }
+.lang-contract-content::before { content:'Vertragsinhalt' }
+.lang-contract-hash::before { content:'Hash des Vertrags' }
+.lang-contract-address::before { content:'Vertrags Adresse' }
+.lang-min-sign-count::before { content:'Minimale Anzahl an Signaturen' }
+.lang-add-public-key::before { content:'Öffentlichen Schlüssel hinzufügen' }
+.lang-create::before { content:'Erstellen' }
+.lang-back-to-contract-list::before { content:'Zurück zur Vertragsübersicht' }
+.lang-back-to-list::before { content:'Zurück zur Listenansicht' }
+.lang-my-asset::before { content:'Meine Vermögenswerte' }
+.lang-no-asset::before { content:'Sie haben zur Zeit keine Vermögenswerte' }
+.lang-issuer::before { content:'issuer' }
+.lang-asset-transfer::after { content:'Transfer' }
+.lang-select-asset::before { content:'Vermögenswert auswählen' }
+.lang-max-to-transfer::before { content:'der maximale Transfer' }
+.lang-receiver::before { content:'Empfänger' }
+.lang-confirm-transfer::before { content:'Transaktion bestätigen' }
+.lang-my-tx-list::before { content:'Kürzlich getätigte Transaktionen' }
+.lang-no-tx::before { content:"Bisher wurden keine Transaktionen getätigt" }
+.lang-collapse-all::before { content:'alles einklappen' }
+.lang-tx::before { content:'Transaktion: ' }
+.lang-tx-input::before { content:'transaction input' }
+.lang-tx-output::before { content:'Transaction output' }
+.lang-tx-value::before { content:'Wert' }
+.lang-tx-asset::before { content:'Vermögen' }
+.lang-tx-sign::before { content:'Transaktion-Signatur' }
+.lang-input::before { content:'Eingabe' }
+.lang-output::before { content:'Ausgabe' }
+.lang-sign::before { content:'Signature' }
+.lang-sian-and-relay::before { content:'Signatur und Aussenden' }
+.lang-regist-tx::before { content:'Vermögen registrieren' }
+.lang-select-asset-type::before { content:'Vermögenstyp auswählen' }
+.lang-asset-name::before { content:'Name des Vermögens' }
+.lang-amount-limited::before { content:'begrenzter Betrag' }
+.lang-amount-limited2::after { content:'begrenzter Betrag ' }
+.lang-select-issuer::before { content:'Aussteller auswählen' }
+.lang-select-admin::before { content:'Administrator auswählen' }
+.long-need-10000anc::before { content:'Registrierte Vermögen werden 10000 ANC verbrauchen' }
+.lang-confirm-regist::before { content:'Registrierung bestätigen' }
+.lang-my-register::before { content:'Ich habe Vermögen registriert' }
+.lang-amount::before { content:'Betrag' }
+.lang-no-regist::before { content:"Sie haben kein Vermögen registriert" }
+.lang-issue-asset::before { content:'Vermögen ausstellen' }
+.lang-select-asset::before { content:'Vermögen auswählen' }
+.lang-asset-type::before { content:'Vermögenstyp' }
+.lang-add-reveiver::before { content:'Empfänger hinzufügen' }
+.lang-confirm-issue::before { content:'confirm issuance' }
+.lang-elect::before { content:'Wahl' }
+.lang-miner::before { content:'miner' }
+.lang-pawn-anc::before { content:'place ANC guarantee' }
+.lang-ok::before { content:'OK' }
+.lang-vote::before { content:'Wählen' }
+.lang-candidate::before { content:'Kandidat' }
+.lang-relay::before { content:'Aussenden' }
+.lang-convert::before { content:'Umwandeln' }
+.lang-backup::before { content:'Sichern' }
+.lang-backup-note::before { content:'Die Sicherungsfunktion ist zur Zeit nur auf Android und Chrome verfügbar' }
+.lang-backup-current-wallet::before { content:'Sichern Sie Ihre aktive Geldbörse' }
+.lang-import-wallet-file::before { content:'Geldbörsen-Datei importieren' }
+.lang-height::before { content:'Fortschritt der Synchronisierung: ' }
+.lang-height2::before { content:'Höhe: ' }
+.lang-wallet::after { content:'Geldbörse' }
+.lang-change-password::after { content:'Passwort ändern' }
+.lang-user-center::after { content:'User center' }
+.lang-asset::after { content:'Vermögen' }
+.lang-adv-function::after { content:'Erweitert' }
+.lang-regist-asset::after { content:'Vermögen registrieren' }
+.lang-developer-tool::after { content:'Entwickler Werkzeuge' }
+.lang-antshares-blockchain::after { content:'Antshares blockchain' }
+.lang-system-setup::after { content:'System einrichten' }
+.lang-normal-setup::after { content:'Normal setup' }
+.lang-help::after { content:'Hilfe' }
+.lang-about::after { content:'Über Antshare' }
+.lang-website::after { content:'Offizielle Webseite' }
+.lang-backup-restore::after { content:'Sichern / Wiederherstellen' }
+.lang-please-choose::after { content:'bitte auswählen' }
+.lang-transaction-list::after { content:'Liste von Transaktionen' }
+.lang-transaction::after { content:'Transaktion' }
+.lang-backup-danger::after { content:'Um die Sicherheit Ihres Vermögens sicherzustellen machen Sie eine Sicherung und verwahren Sie diese sicher.' }
+.lang-account-list-info::after { content: 'Um ihr Vermögen sicherzustellen, exportieren Sie bitte jedes Ihrer Benutzerkonto und verwahren Sie Ihre Sicherung an einem geschützen Ort' }
+.lang-tx-time::after { content:'Zeit' }
+.lang-tx-id::after { content:'Id' }
+.lang-tx-confirms::after { content:'Bestätigungen' }
+.lang-tx-type::after { content:'Typ' }
+.lang-privacy::after { content:'Datenschutzerklärung' }
+.lang-receiver-address::after { content:'Empfänger Adresse' }
+.lang-backup-wallet::after { content:'Geldbörse sichern' }
+.lang-contacts::after { content:'Kontakte' }
+.lang-contact-btn::before { content:'Kontakte' }
+.lang-welcome::after { content:'Willkommen' }
+.lang-home::after { content:'Start' }
+.lang-receive::after { content:'Empfangen' }
+.lang-send::after { content:'Senden' }
+.lang-create-contact::after { content:'Kontakt anlegen' }
+.lang-name::after { content:'Name' }
+.lang-address::after { content:'Adresse' }
+.lang-my-contacts::after { content:'Meine Kontakt' }
+.lang-no-contact::after { content:'Sie haben noch keine Kontakte' }
+.lang-asset-balance::after { content:'Kontostand' }
+.lang-ans::after { content:'Neo' }
+.lang-anc::after { content:'Gas' }
+.lang-start-create::after { content:'Neue Geldbörse anlegen' }
+.lang-start-restore::after { content:'Geldbörse von Sicherung wiederherstellen' }
+.lang-start-import::after { content:'Geldbörse aus privatem Schlüssel wiederherstellen' }
+.lang-start-create2::after { content: 'Wenn Sie dies zum ersten Mal machen, stellen Sie sicher, dass Sie nach der Erstellung Ihrer Geldbörse diese sichern.' }
+.lang-start-restore2::after { content: 'Wenn Sie Ihre Geldbörse aus einer Sicherung wiederherstellen möchten, führen Sie diese Operation aus' }
+.lang-start-import2::after {
+    content: 'Wenn Sie einen privaten Antshares Schlüssel in Ihre Geldbörse importieren möchten, führen Sie diese Operation aus. Bis ihr neues Vermögen angezeigt wird müssen Sie warten bis Ihre Geldbörse fertig synchronisiert wurde' } 
+.lang-my-wallet::after { content:'Meine Geldbörse' }
+.lang-start-create3::after { content:'Erstellen' }
+.lang-start-restore3::after { content:'Wiederherstellen' }
+.lang-start-import3::after { content:'Importieren' }
+.lang-restore1::after { content:'wiederherstellen' }
+.lang-restore2::after { content:'Wiederherstellen' }
+.lang-no-wallet::after { content:'Keine Geldbörsen Datei' }
+.lang-delete::after { content:'Löschen' }
+.lang-restore-info::after { content:'Warning: wallet file cannot be downloaded or restored in this browser, for your asset safety, please download Neo App in Appstore.' }
+.lang-backup-info::after {
+    content: 'Warning: wallet file cannot be downloaded or restored in this browser, for your asset safety, please download Neo App in Appstore.'
+}
+.lang-cancel::after { content:'Abbrechen' }
+.lang-confirm-delete::after { content:'Sind Die sicher, dass Sie diesen Kontakt löschen möchten?' }
+.lang-callout-web::after { content: 'Ihr Broswer wird eine Sicherung Ihrer Geldbörse vornehmen wenn Sie auf [Meine Geldbörse sichern] drücken. Wenn Sie den Cache Ihres Browsers löschen, den Broswer wechseln oder Ihr Betriebsystem neu aufsetzen dann verwenden Sie bitte diese Sicherung um Ihre Geldbörse wiederherzustellen. Bitte verwahren Sie ihre Sicherung Ihrer Geldbörse sicher auf und merken Sie sich dass Passwort sehr gut. Wenn eines der beiden verloren geht (Sicherung der Geldbörse, Passwort) dann kann dies zum Verlieren Ihres Antshares Vermögens führen.' }
+.lang-callout-app::after { content:'After clicking [backup your current wallet file], a systemic share menu will show up, you can share the wallet file to yourself via email, qq or Internet drives. When you reinstall the Antshares Wallet App or you changed your device, you can use the backup file to recover the current wallet. We strongly recommend you safely store the shared wallet file in case of deleted emails or expired Internet drive.' }
+.lang-already-backup::after { content:'Eine Sicherung für Ihre Geldbörse wurde erstellt' }
+.lang-no-backup::after { content:'Bis jetzt noch nicht' }
+.lang-receive-backup::after { content: 'Um Ihr Vermögen zu schützen wird die Empfangsadresse erst angezeigt nachdem Sie eine Sicherung Ihrere Geldbörse gemacht haben. Klicken Sie auf den Button [Zur Sicherung gehen] um zur Sicherungsseite zu wechseln. Nachdem Sie ein Backup gemacht haben verstauchen Sie es sicher an einem Platz an dem Dritte keinen Zugang haben.' }
+.lang-receive-gotobackup::after { content:'Gehen Sie zu Ihrem Backup' }
+.lang-tips::after { content:'Tipps' }
+.lang-haveyoubackup::after { content:'Haben Sie eine Sicherung erstellt?' }
+.lang-hasbackup-p::after { content:'Nachdem Sie ihre Geldbörse gesichert haben klicken Sie auf den Button unterhalb. Nun sollten Sie díe Empfängeradresse sehen können.' }
+.lang-draw-unlock-pattern::after { content:'Bitte zeichen Sie eine Geste zum authentifizieren' }
+.lang-unlock-pattern::after { content:'Geste zum Freischalten' }
+.lang-setup-gesture::after { content: 'Gesten basiertes Passwort einstellen' }
+.lang-system-setup::after { content: 'System einrichten' }
+.lang-check-privatekey::after { content: 'Überprüfen Ihres privaten Schlüssels'}
+.lang-more-features-in-mobile-client::after { content:'Mehr Funktionen in der mobilen App'}
+.lang-download-link::after { content: 'Download'} 

@@ -163,3 +163,5 @@
 .lang-setup-gesture::after { content: '设置手势密码' }
 .lang-system-setup::after { content: '系统设置' }
 .lang-check-privatekey::after { content: '查看私钥'}
+.lang-more-features-in-mobile-client::after { content: '更多功能尽在手机客户端'}
+.lang-download-link::after { content: '立即下载'}
